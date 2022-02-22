@@ -3,7 +3,6 @@
     <title>C 23 февраля</title>  
     <link href="woow.css" rel="stylesheet">
 </head>
-
 <body>
 <div class="shapka1">
   <center> <table height="auto" class="shapka3"><tr><td>
