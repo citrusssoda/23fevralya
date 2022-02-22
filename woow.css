@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    background-image: url(https://avatanplus.com/files/resources/original/577788a3088bf155aaedbcdb.jpg);
+    background-attachment: fixed;
+    background-repeat: space;
+    background-image: central;}
+
+
+p{
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+.shapka1{   padding-top: 20px;
+    background: linear-gradient(to bottom,  rgb(0, 0, 0) 10%, rgba(255, 255, 255, 0));
+}
+.nomer{
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.438), 
+0 1px 1px rgba(0, 0, 0, 0.438), 
+-1px 0 1px rgba(0, 0, 0, 0.438), 
+0 -1px 1px rgba(0, 0, 0, 0.438);
+}
+.text1{
+    
+    font-size: 400%;
+    text-align: center;
+    text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+padding-left: 30px;
+color: white;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+}
+
+.block{
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 5%; /* Поля вокруг текста */
+    background:radial-gradient( rgb(102, 4, 4) 5%, rgba(255, 255, 255, 0));
+    color: rgb(192, 192, 192); /* Цвет текста */
+}
+
+
+.info{
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: linear-gradient(to top,  rgb(0, 0, 0) 10%, rgba(255, 255, 255, 0));
+    color: rgb(126, 126, 126); /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+    background: #a7a7a7;
+    border: unset;
+    cursor: pointer;
+    border-radius: 10%;
+}
